@@ -1,0 +1,12 @@
+
+
+git init - initialize git repository
+git status - check status of git
+git add . - stage changes
+git add --all - stage changes including deleted/renamed/moved files
+git commit -m "<commit message>"
+git remote add origin https://github.com/alainlap/bml_notes.git
+git push -u origin master
+
+
+git remote set-url origin https://github.com/alainlap/*.git - change remote path after cloning a repository

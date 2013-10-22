@@ -1,0 +1,54 @@
+
+#Basic Commands
+
+pwd - print working directory
+hostname - my computer's network name
+mkdir - make directory; '-p' allows nested path creation
+cd - change directory; '~' = home
+ls - list directory; '-lR'; '-a'
+rmdir - remove directory; use quotes to deal with spaces in path name;
+rm  = '-rf' to delete path within dir
+pushd - push directory; go to new dir and add current one to list to be popped back
+popd - pop directory
+cp - copy a file or directory; '-r' to copy directories
+mv - move a file or directory
+less - page through a file; 'q' to quit
+cat - print the whole file; can make new file using 'cat > NEW FILE NAME' - use Ctrl + D to close the file
+xargs - execute arguments
+find - find files; 'find STARTDIR -name WILDCARD -print'
+grep - find things inside files; 'grep SEARCHWORD FILENAME (or wildcard); use '-i' to ignore case
+man - read a manual page; exit with 'q'
+apropos - find what man page is appropriate
+env - look at your environment
+echo - print some arguments
+export - export/set a new environment variable;
+exit - exit the shell
+sudo - DANGER! become super user root DANGER!
+chmod - change permission modifiers
+chown - change ownership
+
+
+touch - creates new file
+subl <filename> - open in sublime text
+
+cmd + K - really clear the terminal
+
+
+How do I delete directories with contents? rm -rf DIRNAME
+
+
+Pipes & Redirections
+
+$|$
+The | takes the output from the command on the left, and "pipes" it to the command on the right. In line 1 you see me do that.
+
+$<$
+The < will take and send the input from the file on the right to the program on the left. You see me do that in line 2. This does not work in PowerShell.
+
+$>$
+The > takes the output of the command on the left, then writes it
+to the file on the right. You see me do that on line 9.
+
+$>>$
+The >> takes the output of the command on the left, then appends it
+to the file on the right.

@@ -1,0 +1,54 @@
+
+
+table {
+    border:1px solid color;
+}
+
+# CLASS SELECTORS
+
+/*  <div class=""></div>  */
+.class_name {}
+
+# ID SELECTORS
+
+/*  <div ID=""></div>  */
+#ID_name {}
+
+# PSEUDO-CLASS SELECTORS
+
+a:hover
+a:visited
+a:link
+
+p:first-child - only applies to first-child of the parent
+
+
+
+
+# POSITIONING
+
+display:block = This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.
+
+display:inline-block = This makes the element a block box, but will allow other elements to sit next to it on the same line.
+
+display:inline = This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs (not the whole line).
+
+display:none = This makes the element and its content disappear from the page entirely!
+
+float:right/left = 
+
+clear:right/left/both = get out of the way of floating objections on the right/left/both sides
+
+position:absolute = positioned in relation to the first parent element it has that doesn't have position:static. If there's no such element, the element with position:absolute gets positioned relative to <html>.
+
+position:relative =  move relative to where it would have landed if it just had the default static positioning.
+
+position:static = 
+
+
+# MARGIN/BORDER/PADDING
+
+margin: Top Right Bottom Left;
+
+
+
