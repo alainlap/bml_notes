@@ -4,9 +4,6 @@ RUBY Basics
 
 IRB - ruby sandbox
 
-
-
-
 # ESCAPE SEQUENCES
 \" – double quote
 \ – single backslash
@@ -17,24 +14,35 @@ IRB - ruby sandbox
 \s – space
 \t – tab
 
-# ARRAYS
+# DEFINING ARRAYS
 (1..n).to_a
 
+#ANY CLASS METHODS
+variable.class # prints the class type
+variable.inspect
 
 # ARRAY METHODS
+array.select {|x| x>5} - selects array elements over 5
+array.join # turns the array into a single string
+array.include?("value")
+array.max
+array.min
+array.puts # note array always goes through .to_s so the output is a string
 
 
-my_array.select {|x| x>5} - selects array elements over 5
 
-
+# INTEGER METHODS
 INTEGER.next
 INTEGER.odd?
 INTEGER.even?
+
+#STRING METHODS
 
 STRING.capitalize
 STRING.upcase
 STRING.reverse
 STRING.length
+
 
 "#{VARIABLE} STRING" - pass an variable into a string
 
