@@ -52,3 +52,10 @@ to the file on the right. You see me do that on line 9.
 $>>$
 The >> takes the output of the command on the left, then appends it
 to the file on the right.
+
+
+# CREATE TEMPORARY ALIAS
+alias new_name='command to be performed'
+
+# PERMANENT ALIAS
+subl ~/.bash_profile	& add the alias line to the bottom
