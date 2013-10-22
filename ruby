@@ -7,8 +7,17 @@ IRB - ruby sandbox
 
 
 
-# ARRAYS
+# ESCAPE SEQUENCES
+\" – double quote
+\ – single backslash
+\a – bell/alert
+\b – backspace
+\r – carriage return
+\n – newline
+\s – space
+\t – tab
 
+# ARRAYS
 (1..n).to_a
 
 
@@ -113,9 +122,10 @@ my_hash.each_value {|v| print v}
 boolean ? 'do if true': 'do if false'
 
 
-# Set value if not already set
+# CONDITIONAL ASSIGNMENT - Set value if not already set
 
-'||='
+variable = variable || "default value"
+variable ||= "default value"
 
 
 #iterate over a specific range of numbers
